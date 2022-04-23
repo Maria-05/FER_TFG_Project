@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{%block bodyblock %}
+
+<main class="page projets-page">
+        <section class="portfolio-block project-no-images">
+            <div class="container">
+                <div class="heading">
+                    <h2 style="margin-top: -33px;">PASOS QUE REALIZA EL MODELO</h2>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item"><span>Leer imágenes de entrenamiento y test</span></li>
+                    <li class="list-group-item"><span>EDA con librería Pandas</span></li>
+                    <li class="list-group-item"><span>Utilizar un detector facial Haar Cascade</span></li>
+                    <li class="list-group-item"><span>Pasar todas imágenes a una escala de grises</span></li>
+                    <li class="list-group-item"><span>Recortar las imágenes almacenando únicamente el rostro</span></li>
+                    <li class="list-group-item"><span>Reescalar imágenes (elimianar outliers)</span></li>
+                    <li class="list-group-item"><span>Crear la arquitectura del modelo (VGG, ResNet, GoogLeNet, Inception, Xception)</span></li>
+                    <li class="list-group-item"><span>Entrenar el modelo (fit)</span></li>
+                    <li class="list-group-item"><span>Predecir las imágenes con el conjunto de test (también preprocesado)</span></li>
+                    <li class="list-group-item"><span>Mostrar las métricas de evaluación con la herramienta TensorFlow</span></li>
+                </ul>
+            </div><img src="/Users/maria/PycharmProjects/EmotionProjectDetector/static/img/clipboard-image-2.png" style="width: 498px;transform: translate(253px);margin-top: 36px;">
+        </section>
+    </main>
+
+{% endblock  %}
